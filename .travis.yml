@@ -1,0 +1,18 @@
+language: php
+
+php:
+  - 7.1
+  - 7.2
+  - 7.3
+
+install:
+  - composer self-update
+  - composer install
+
+script:
+#  - ./vendor/bin/phpunit --config tests/phpunit/phpunit.xml;
+#  - ./vendor/bin/phpspec run --no-interaction;
+#  - ./vendor/bin/behat;
+
+after_script:
+#  - php vendor/bin/coveralls -v
