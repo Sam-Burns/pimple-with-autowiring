@@ -5,8 +5,12 @@
 
     "description": "A library for using an existing Pimple container alongside an autowiring container",
 
+    "license": "MIT",
+
     "require": {
+        "php": "^7.1",
         "pimple/pimple": "^3.2",
+        "symfony/dependency-injection": "^4.1",
         "ultra-lite/composite-container": "^1.0"
     },
 
